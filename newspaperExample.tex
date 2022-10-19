@@ -1,0 +1,127 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{sidecap}
+\usepackage{newspaper}
+
+\date{\today}
+\currentvolume{1}
+\currentissue{1}
+
+%% [LianTze] The newspaper package also provides 
+%% these commands to set various metadata:
+
+%% The banner headline on the first page
+%%   (The colon after s: is to get a more
+%%   modern majuscule s in this font instead of 
+%%   the medieval tall s. For anyone interested 
+%%   in the history: 
+%%  http://medievalwriting.50megs.com/scripts/letters/historys.htm)
+\SetPaperName{XignalX, Inc. Press}
+
+%% The name used in the running header after
+%% the first page
+\SetHeaderName{XignalX, Inc.}
+
+%% and also...
+\SetPaperLocation{Hawaii, USA}
+\SetPaperSlogan{``\textit{Fair and Balanced}''\texttrademark \copyright \textregistered}
+\SetPaperPrice{\$ 1.05}
+
+
+% [LianTze] times (the package not the font) is rather outdated now; use newtx (see later)
+% \usepackage{times}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{picinpar}
+%uasage of picinpar:
+%\begin{window}[1,l,\includegraphics{},caption]xxxxx\end{window}
+\newcommand{\NewsAuthor}[1]{%
+			\hfill
+			\textsc{#1} \vspace{4pt}
+			\par \normalfont}	
+
+%% [LianTze] Contains some modifications
+\usepackage{newspaper-mod}
+%%... so now you can redefine the headline and byline style if you want to.
+%% These can be issued just before any
+%% byline or headline in the paper, to
+%% individually style each article
+%%
+% \renewcommand{\headlinestyle}{\itshape\Large\lsstyle}
+% \renewcommand{\bylinestyle}{\bfseries\Large\raggedright}
+
+
+%%%%%%%%%  Front matter   %%%%%%%%%%
+
+\usepackage{lipsum}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+
+%\pgfrealjobname{example} % name of this file
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{2}
+
+\byline{Google, Inc. Lies, Blacklists and Conspiracy}{Matthew Woods FKA Burns}
+
+\large
+TLDR: I’m a former Navy SEAL, smeared by Dianna Cowern (AKA Physics Girl) via Alphabet Inc while working as a Google employee. From 2015-2020, I have experienced severe police misconduct first hand. This is across five counties: San Diego, Orange, Santa Clara, Oahu and Hawaii. I think they may have ties to THE Nazis, since my entire immediate family (Donald Burns, Anne Burns and Susan Burns) are Nazis... the type that agree with Adolf Hitler and Eichmann of WWII. They lied to me about this since I was born.
+ 
+
+\begin{window}[2,c,\includegraphics[width=2.8in]{Profile_Pic.jpg},\centerline{\textit{Matthew Woods: mattwoods243@outlook.com}}]   
+\end{window}
+
+Donald Burns in 2011, ''... you know, like Trump, from The Apprentice? YOU'RE FIRED!''. I had heard of The Apprentice, but was not a fan, or a hater. I simply didn't know much about him. He's Donald Trump and he becomes president five years in the future. They are Hitler/Eichmann... you can see which is which, Donald and Donald. Burns is a Trump super fan from before, increased during the Obama administration. The relatives who were around during that sound bite are also Nazis (Bondor). Donald is a hacker; he admitted to me before I joined the Navy (2000) that he hacked my sister's Yahoo email account. By the year 2015, she was one of the Nazis, but I don't know when she turned. Trump is Hitler. I think Donald Burns is an Eichmann. The Physics Girl's (TPG) parents are perhaps Eichmann types. Yes, that one... from YouTube. If she and the SEALs that TPG knew from before I met her have some kind of experiment on me, I can think about that (Eichmann) connection between Cowern and Burns. What would Dirty say, I ask myself. She came in there like our other friend Wendy, who is perhaps a Nazi. Wendy knows more SEALs than me, somehow. This is the roommate of the wife of some Ex SEAL I refer to only as ''Roomba''. Roomba was a Sacramento cop, kicked off the force for unnecessary brutality to a detainee. My nickname in the SEALs, was ''Rain Man''. Why did they compare TPG to Dirty? That could be kind of important. Mike Casale, ''Hunty'', had plenty to say about TPG as well. They all did at The Big Bang Theory House (\#TBBTH), as well. May doom be unto them, expeditiously. She, and her cronies. "Noah", who I know from the Navy is a friend that I introduced to all those people. He never came to hang out with Dirty and Big Head though, more's the pity. He once told me he wanted to meet Dirty. All he got was TPG and some other asshole (Casale) that were living there with he and I as roommates. Casale is an asshole. That's why Wendy calls him Hunty... like Mike Hunt. I like that Wendy calls him Hunty and that he doesn't like it. He and TPG were closer than TPG and I. She is also and asshole. Weird. My life was different in my early twenties. There were assholes around, sure... like fucking Dirty... what those one platoon assholes she dragged in nicknamed her. She was deployment sitting a snake for one of them. The snake's name was Kah.
+
+I blame the Swartz Center for Computational Neuroscience (SCCN). They are heavily involved with TPG, but obfuscate this because it is so unlikely. I booked the flight through Kauai through their admin Julie. Was the SCCN hacked? No... I made that change to go there with my girlfriend Daniella for a few days en route to Osaka Japan for a BCI Neurotech conference ''EMBC, 2013''. My article was published with a poster presentation. The experiment was to hack the human mind with EEG, noninvasively, to identify targets which were planes embedded in random imagery of wide areas 12 times as fast as a human alone, i.e. Rapid Serial Visual Presentation (RSVP). This is high (256) dimensional EEG- time-series data. It is the link to a Brain-Computer-Interface (BCI), where the computer picks the targets \cite{rerp}. If she has anything to do with them, I want to know. Is this like, some kind of Nazi network at the SCCN, and TPG knows more than she should about me from Craigslist. Seems like I was being lied to. Creepy to involve my family too. I already knew they were assholes. Swartz is the Billionaire who funds the SCCN, where I sat. My funding was portable for both undergrad and grad school: The VA executed post 911 GI Bill, then the NSF GRFP. The office space was provided by Swartz, and air travel and lodging and publishing costs for my small contribution. Before I departed, TPG jumps into roommate position, from Kauai, where I'm supposed to go with my girlfriend. By the time I took the flight to Kauai, we were already broken up. I think Swartz, Allen Gruber of the Brain Corporation and Intheon, Makeig and Kreutz are affiliated with some kind of Manhattan project thing and the Nazis. They are like Hitler/Eichmann people to me. Kreutz had heard I was a SEAL before he saw me. He lies about that and says, as if by inspection, ''What are you, some kind of Special Forces guy?''. I responded in the affirmative and let him get away with that. He recommended me for the SCCN in winter 2011 and I was the one who took action to set that up. I had been thinking of doing something like EEG data since late 2010 in the ICAM program at UCSD. I had a summer research gig there as well, in collaboration with The California Institute for Telecommunications and Information Technology (CalIt2). Calit2 and SCCN are unrelated technological institutes on the UCSD property. The SCCN sits at the ground floor of the San Diego Supercomputer Center (SDSC). I was working there in some capacity for four years. 
+
+The SCCN is tiny and was around when TPG came across my bow. I think she stalked me to Google in 2018 while I was working as a data scientist. She viewed my LinkedIn, which you can monitor if you pay for premium, which I had. Then Google goes all ''evil'' \cite{liepeople} \cite{onevil} on me, after my last conversations with the Burnses before a trip to Maui for a few days in Christmas 2018 era. Everything was shit in CA after that. I remembered my time at Google by people casually throwing Bitch Face (BF) at me who should know better. Olivia Nottenbaum and Lawrence Fahey are my BFs. So is Wendy. I had done notable work for them and have connections to the government that they never will: damn few. Olivia had given me some award for being part of some group that I am barely a part of. I know what they do. They are more like customers than coworkers in the schema. I am upstream from them and downstream from something known as ''Vector'', which amounts to a code word for their new Salesforce.com instance. The one they used that year was not that, as far as I know. It was the one I generated, not Vector. Vector represents many Googlers and Deliotte personnel to the tune of hundreds of headcount. What happened there? The Google data engineer's data also blew up, like Vector. Those Googlers lie to my face plenty, but they are ''bad actors'' in the sense that I can detect that. Then I quit immediately and unceremoniously after working at Google for 11 months. It's me dinging them and they never asked why. Now we all know. They have shady business dealings with a data vendor called ''Inricately''? That's an unconfirmed rumor to me. The issue that made them the most money (i.e. on the order of 20B USD per year revenue for Google Cloud, which they hit and published separately in 2019) was delivering a series of ''mega .csv files'' that feed the new SFDC instance directly. The tolerance for noise on tens of millions of rows in the .csv files is zero, meaning not one row can be unneeded or corrupt. They are, in a sense, the Baleen team. The man who signs off is Shri. His boss Karen Gilcrest asked me to do it, as well as Jorge, my manager. After it was over, Jorge mentions that they said they wouldn't have a business plan in 2019 if it wasn't for me. I would further add, they wouldn't have had a business plan in 2019 if it were not for Intricately. 
+
+My BFs Lawrence Fahey and Olivia Nottenbaum had me out to an expensive sales conference a few months after this incident. I resigned from Google shortly after that conference. I told her about the former CIA applicant to our group. She replied with some lie about which award I received at the sales conference, suggesting it was more meaningful than it was. I didn't bring up the untraceable paper check for \$6K that I received from Alphabet after the conference. I had requested to not attend, but they insisted. My manager Jorge seemed elated when I offered my resignation. Hitler loving Nazis, all of them. I'm not kidding. Once I was musing about making a ''Trump Tweet Generator'' as a home project. My BF Peter Redl seemed to think that was a bad idea. Audrey Gross is another classic Google BF. I think they had some kind of Hitler/Eichmann Manhattan Project of some kind with the intent of discrediting me. How many were in on it? Did they admit to knowing about TPG on paper? Did Larry and Sergey know? Discovery is the key to Google. Did she and her ilk try to ''Hitler Zero Dark Thirty'' me in 2015 and beyond? Is my family in on it? Does TPG know anyone who ever served in the CIA? Do I? Does Secretary of State and former spymaster Mike Pompeo know what I should do here? How many people are in on this Nazi Manhattan project to discredit me? Is TPG pure evil? I think I know the answer to the latter: she is a lil' Hitler. I think the government was lied to by these people about me a lot. They would love to say that their escapades with me ''never happened''. Google and Apple are fascism-ing to make that happen. Remember ''Beware the military industrial complex!''? I would add, ''Beware Hitler at the helm of the military industrial complex with full blown fascism!'' That would truly signal the end of days with the Google/Apple/Government death star approach to erasing people's identities. They literally call Google "The Death Star": internally and in the media (e.g. Trump on live news ''The Death Star''). They aren't kidding... it is a death star in my opinion: literally a planet killing weapon. They didn't have any questions about why I was leaving right before finishing a year. It was in protest of their dishonesty and, in retrospect, evil. If I could go back, I would have alerted Chris Rackow, VP physical security, of the Nazis that I suspect are running around his org, e.g. TPG, BFs, etc. Chris is a former SEAL officer and FBI. He warned me these Googlers are ''backstabby'' when I checked in at Google. I would also alert Rackow of another former roommate named Gloria Wee from marketing. She is a suspect, along with Roomba. Fun fact, Roomba's non-SEAL friend from the Navy was FBI SWAT. He may have been on Hilary Clinton's PSD at some point. All are suspects in the setup. The saga continues to this day. I plan on trying to use Probabilistic Graphical Models (PGM) to answer these questions \cite{probabilisticgraphicalmodels}. I visited the Google campus for the first time in 2012, as part of the Google Scholars Retreat scholarship through Student Veterans of America (SVA). We need all data internal to Google going back to then.
+
+This is more like Sherlock Holmes, but it can be put into a science framework with PGM. I can use computers to look at all of my data at once and show what they did: overload me and my reputation with a fire hose of lies. ''Data collection'' corresponds to ''discovery'' in legalese, and this precedes any attempt at PGM modeling. This may be expensive, but is completely necessary. I have to have ALL of my data with Google and Apple and TBBTH and the Police and the psychologist's notes. Once I have that, I can run simulations and produce statistics on the graph and show the different groups and how they connect. Here is a toy example: the decision in ''Zero Dark Thirty'', the movie, about whether to attempt the UBL raid. It comes down to how confident they are that Bin Laden is where they think he is. They say things like, ''I think it's a soft 60, sir,'' of the chances that he is there. How soft? He doesn't quantify the uncertainty; the decision maker only wants some consensus, not technical details about how they do it. Many will die if the operation is undertaken, and the USA would be violating Pakistan's sovereignty at some level. Pakistan is our nuclear armed ally, but tensions are high because of the war in Afghanistan. Is the cost of being wrong worse than the cost of being correct? Only they know. We can make a probability model to capture this and make a decision on whether to launch the raid or not. To do this, we will compute a unitless value called ''Expected Risk''. You simply choose the outcome with the lower ER. To compute this value, you have to know the cost of doing the op vs not doing the op in some common form, like dollars or lives lost or some weighted linear combination of all the factors that matter for the schema. For a binary hypothesis, like execution, this is modeled as a Bernoulli random variable. The uncertainty can be specified and added to the model as a statistical prior on the 60\% probability (the ''soft'' part of soft 60). For example, he could say it is soft as in a truncated Gaussian with zero mean and standard deviation of 10 points. It's also possible to induce a prior on the Bernoulli likelihood, such as the Dirichlet distribution. This also has two parameters. Computing the resulting ER is accomplished using Variational Bayesian \cite{variational} and Monte Carlo sampling \cite{mcmc} methods. These PGM models can accommodate large Sherlock Holmes style schemas with millions of variables, especially if they are all independent. If they are all fully dependent on each other, much more data is needed to get accurate and stable graph statistics. 30 variables in a PGM is considered high due to the so called ''Curse of Dimensionality'' whereby the probability Hilbert space has to be sampled too much as the dimension of the space increases.
+
+Another decision we would give weight to is whether to give Trump the investigation he deserves: the one into whether he is Adolf Hitler or not. It might be an unpopular option. What is the cost for each outcome of the investigation? For getting that wrong, the cost is perhaps losing the planet to Nazi control later, as if we are Germany in the 1920's. This can be modeled, along with the likelihood model of whether or not he is Adolf Hitler. The cost is high for getting that wrong \cite{thinkingintime}. The Nazis were evil and horrible and we lost a lot fighting them in WWII. Some would say Hitler was the worst enemy the USA ever faced. Consider that if the USA falls, Hitler would have nukes and computers (Google/Apple). I think we should use all the data we can in the decision to investigate him for being Hitler and having Eichmanns on the payrole already. It's probably the Nazis. This is in the face of him touting some conspiracy theory about election hacking that he will continue to back reference as if it were true in the years to come. Hitler back referenced a debunked conspiracy about WWI being lost because of a Jewish/Communist conspiracy in the 1920s. That is happening right now. I'm worried he will come back in a few years and still be Hitler.
+
+\closearticle
+
+\end{multicols}
+
+% Latent Dirichlet allocation
+\begin{SCfigure}
+
+  \scalebox{.65}[.65]{\input{zero_dark_thirty_probabilistic_graphical_model}}
+  
+  \caption{Zero Dark Thirty Usama Bin Laden location as a Probabilistic Graphical Model (PGM). $X$ represents the Bernoulli likelihood variable, $\Theta$ and $\Phi$ control the position and softness or shape of the model. $X$ is the event that he is present at the site. With PGM and stochastic simulations, we can compute stats for the variable of interest: $X$. This is an example of Latent Dirichlet Allocation (LDA) \cite{lda}}
+  
+\end{SCfigure}
+
+\newpage
+\begin{thebibliography}{9}
+
+\bibitem{liepeople}Peck, M. Scott. ''People of the Lie.'' Simon and Schuster, 1983.
+
+\bibitem{onevil}Eagleton, Terry. ''On evil.'' Yale University Press, 2010.
+
+\bibitem{probabilisticgraphicalmodels}Koller, Daphne, and Nir Friedman. Probabilistic graphical models: principles and techniques. MIT press, 2009.
+
+\bibitem{thinkingintime}Neustadt, Richard E. Thinking in time: The uses of history for decision makers. Simon and Schuster, 2011.
+
+\bibitem{variational}D. G. Tzikas, A. C. Likas and N. P. Galatsanos, ''The variational approximation for Bayesian inference.'' in IEEE Signal Processing Magazine, vol. 25, no. 6, pp. 131-146, November 2008.
+
+\bibitem{mcmc}Brooks, Steve, et al., eds. Handbook of markov chain monte carlo. CRC press, 2011.
+
+\bibitem{lda}Blei, David M., Andrew Y. Ng, and Michael I. Jordan. ''Latent dirichlet allocation.'' Journal of machine Learning research 3.Jan (2003): 993-1022.
+
+\bibitem{rerp}Burns, Matthew D., et al. ''Comparison of averaging and regression techniques for estimating event related potentials.'' 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). IEEE, 2013.
+
+\end{thebibliography}
+
+\end{document}
